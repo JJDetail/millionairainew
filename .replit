@@ -1,8 +1,5 @@
 run = "node index.js"
 
 [nix]
-channel = "stable"
+channel = "stable-24_05"
 
-[env]
-PORT = "3000"
-GPT_API_KEY = "your-openai-api-key-goes-here"
