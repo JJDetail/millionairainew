@@ -1,18 +1,25 @@
-# Secrets
+# Local credentials (never commit)
 .env
+.env.*
+!.env.template
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
 
-# Node.js junk
+# Dependency and build artifacts
 node_modules/
-
-# Python junk
 __pycache__/
 *.pyc
+dist/
+build/
+coverage/
 
-# Editor/OS junk
-.replit
+# Local files and diagnostics
+*.log
+deploy_log.txt
 .DS_Store
 .idea/
 .vscode/
-
-# Logs and temporary files
-*.log
+.replit
